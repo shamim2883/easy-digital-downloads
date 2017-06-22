@@ -1266,6 +1266,7 @@ function edd_payment_icons_callback( $args ) {
 
 				} else {
 
+					// TODO: Find a way to make this backwards compatible so that we check $key AND $option
 					/*$card = strtolower( str_replace( ' ', '', $option ) );*/
 					$card = strtolower( str_replace( ' ', '', $key ) );
 
